@@ -1,45 +1,60 @@
-🔥 Détection d’anomalies thermiques sur panneaux photovoltaïques (Démo)
+🔥 Détection d’anomalies thermiques sur panneaux photovoltaïques
 
-## Présentation
-Ce dépôt présente une **démonstration visuelle** d’un projet de détection
-d’anomalies thermiques sur des panneaux photovoltaïques à partir d’images
-thermiques.
+(Démonstration visuelle)
 
-Le projet repose sur des techniques de **vision par ordinateur** et de
-**deep learning non supervisé**, en particulier des **autoencodeurs**.
+📌 Présentation
 
-⚠️ **Important**  
-Ce dépôt est une **version démo** :
-- aucun code source n’est publié
-- aucun modèle n’est fourni
-- aucune donnée n’est partagée
+Ce dépôt présente une démonstration visuelle d’un projet de détection d’anomalies thermiques sur des panneaux photovoltaïques, à partir d’images thermiques aériennes.
 
----
+Le projet s’appuie sur des techniques de vision par ordinateur et de deep learning non supervisé, en particulier des autoencodeurs, afin d’identifier automatiquement des zones anormales (hotspots, défauts thermiques, etc.).
 
-## Objectif de la démo
-- Illustrer le principe de la détection d’anomalies thermiques
-- Montrer des **résultats visuels** (images, reconstructions, cartes d’erreur)
-- Donner une compréhension globale de l’approche utilisée
+🎯 Objectifs de la démonstration
 
----
+Illustrer le principe de la détection d’anomalies thermiques
 
-## Contenu du dépôt
-- `README.md` : description du projet
-- `images/` : résultats visuels générés à partir du modèle
+Montrer les résultats visuels :
 
----
+image thermique originale
 
-## Approche méthodologique (résumé)
-1. Prétraitement d’images thermiques
-2. Entraînement d’un autoencodeur sur des données normales
-3. Reconstruction des images
-4. Détection des anomalies par analyse de l’erreur de reconstruction
+image reconstruite par l’autoencodeur
 
----
+carte d’erreur de reconstruction
 
-## Remarque
-Le code complet, les modèles et les jeux de données
-ne sont **pas inclus** dans ce dépôt public.
+détection des hotspots
+
+Donner une compréhension globale de l’approche méthodologique
+
+🧠 Approche méthodologique (résumé)
+
+Prétraitement des images thermiques
+
+Entraînement d’un autoencodeur sur des données considérées comme normales
+
+Reconstruction des images d’entrée
+
+Calcul de l’erreur de reconstruction
+
+Détection des anomalies via les zones à forte erreur (hotspots thermiques)
+
+📂 Contenu du dépôt
+
+README.md : description du projet
+
+assets/ : résultats visuels issus du modèle (images de démonstration)
+
+⚠️ Important — Dépôt de démonstration
+
+Ce dépôt est fourni à des fins de démonstration uniquement :
+
+❌ le code source n’est pas publié
+
+❌ les modèles entraînés ne sont pas fournis
+
+❌ les jeux de données ne sont pas partagés
+
+ℹ️ Remarque
+
+Le projet complet (code, modèles et données) n’est pas inclus dans ce dépôt public
 
 📩 Pour plus d’informations, merci de contacter l’auteure du projet.
 
